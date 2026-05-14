@@ -1,0 +1,6 @@
+Set-Location "C:\Users\anesd\Desktop\webprishtina\BORNE"
+$node = "C:\Program Files\nodejs\node.exe"
+$npmCli = "C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js"
+Write-Host "Running build..."
+& $node $npmCli run build 2>&1 | Tee-Object -FilePath "build_log.txt"
+Write-Host "Build exit: $LASTEXITCODE"

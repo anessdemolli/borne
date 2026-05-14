@@ -1,0 +1,30 @@
+=== Node/NPM paths ===
+C:\Program Files\nodejs\node.exe
+C:\Program Files\nodejs\npm
+C:\Program Files\nodejs\npm.cmd
+
+=== npm version ===
+11.12.1
+
+=== node_modules count ===
+Packages: 26
+.bin
+@next
+@swc
+busboy
+caniuse-lite
+client-only
+clsx
+framer-motion
+graceful-fs
+gsap
+js-tokens
+lenis
+loose-envify
+motion-dom
+motion-utils
+nanoid
+next
+picocolors
+react
+react-dom
